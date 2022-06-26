@@ -1,6 +1,9 @@
 const express=require('express');
 const port=8000;
 const app=express();
+
+// import datasbse
+const db=require('./config/mongoose')
 //lauoyt
 const expresLayout= require('express-ejs-layouts');
 app.use(expresLayout);
