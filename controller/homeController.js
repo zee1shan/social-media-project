@@ -1,5 +1,7 @@
 module.exports.home=(re,rs)=>{
-  return  rs.end('<h1>Hi I MMMM Zeeshannn</h1>')
+  return  rs.render('home',{
+    title:"home lnder"
+  })
 }
 module.exports.about=(re,rs)=>{
     return rs.end("<h1>My name is lakhan</h1>")
